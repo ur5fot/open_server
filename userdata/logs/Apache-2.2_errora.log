@@ -1,0 +1,17 @@
+[Thu Mar 23 15:38:06 2017] [warn] RSA server certificate CommonName (CN) `localhost' does NOT match server name!?
+[Thu Mar 23 15:38:06 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Mar 23 15:38:07 2017] [warn] RSA server certificate CommonName (CN) `localhost' does NOT match server name!?
+[Thu Mar 23 15:38:07 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Mar 23 15:38:07 2017] [notice] Apache/2.2.31 (Win32) mod_ssl/2.2.31 OpenSSL/1.0.1p configured -- resuming normal operations
+[Thu Mar 23 15:38:07 2017] [notice] Server built: Jul 16 2015 11:30:50
+[Thu Mar 23 15:38:07 2017] [notice] Parent: Created child process 7844
+[Thu Mar 23 15:38:07 2017] [notice] Disabled use of AcceptEx() WinSock2 API
+[Thu Mar 23 15:38:07 2017] [warn] RSA server certificate CommonName (CN) `localhost' does NOT match server name!?
+[Thu Mar 23 15:38:07 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Mar 23 15:38:07 2017] [warn] RSA server certificate CommonName (CN) `localhost' does NOT match server name!?
+[Thu Mar 23 15:38:07 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Mar 23 15:38:07 2017] [notice] Child 7844: Child process is running
+[Thu Mar 23 15:38:07 2017] [notice] Child 7844: Acquired the start mutex.
+[Thu Mar 23 15:38:07 2017] [notice] Child 7844: Starting 32 worker threads.
+[Thu Mar 23 15:38:07 2017] [notice] Child 7844: Listening on port 443.
+[Thu Mar 23 15:38:07 2017] [notice] Child 7844: Listening on port 80.

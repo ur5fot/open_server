@@ -1,0 +1,5 @@
+[Fri Apr 21 17:16:59.921000 2017] [mpm_winnt:notice] [pid 8908:tid 272] AH00455: Apache/2.4.25 (Win64) configured -- resuming normal operations
+[Fri Apr 21 17:16:59.921000 2017] [mpm_winnt:notice] [pid 8908:tid 272] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Apr 21 17:16:59.921000 2017] [core:notice] [pid 8908:tid 272] AH00094: Command line: 'W:\\modules\\http\\Apache-PHP-7-x64+Nginx-1.10\\bin\\httpd.exe -d W:/modules/http/Apache-PHP-7-x64+Nginx-1.10 -f w:\\modules\\http\\Apache-PHP-7-x64+Nginx-1.10\\conf\\httpd.conf'
+[Fri Apr 21 17:16:59.933000 2017] [mpm_winnt:notice] [pid 8908:tid 272] AH00418: Parent: Created child process 8812
+[Fri Apr 21 17:17:00.973000 2017] [mpm_winnt:notice] [pid 8812:tid 296] AH00354: Child: Starting 32 worker threads.

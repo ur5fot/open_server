@@ -1,0 +1,25 @@
+[Fri Apr 21 17:17:43.511000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop171delolt:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.512000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop171:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.513000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop17:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.513000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.513000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.727000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop171delolt:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.727000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop171:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.727000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop17:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.728000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: prestashop:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.728000 2017] [ssl:warn] [pid 8968:tid 196] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:43.760000 2017] [mpm_winnt:notice] [pid 8968:tid 196] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2j configured -- resuming normal operations
+[Fri Apr 21 17:17:43.760000 2017] [mpm_winnt:notice] [pid 8968:tid 196] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Apr 21 17:17:43.760000 2017] [core:notice] [pid 8968:tid 196] AH00094: Command line: 'W:\\modules\\http\\Apache-PHP-7-x64\\bin\\httpd.exe -d W:/modules/http/Apache-PHP-7-x64 -f w:\\modules\\http\\Apache-PHP-7-x64\\conf\\httpd.conf'
+[Fri Apr 21 17:17:43.770000 2017] [mpm_winnt:notice] [pid 8968:tid 196] AH00418: Parent: Created child process 8896
+[Fri Apr 21 17:17:44.172000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop171delolt:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.173000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop171:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.174000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop17:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.174000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.175000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.338000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop171delolt:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.338000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop171:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.338000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop17:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.339000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: prestashop:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.339000 2017] [ssl:warn] [pid 8896:tid 208] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 21 17:17:44.361000 2017] [mpm_winnt:notice] [pid 8896:tid 208] AH00354: Child: Starting 32 worker threads.

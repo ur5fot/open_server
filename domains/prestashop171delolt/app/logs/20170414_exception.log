@@ -1,0 +1,4 @@
+*ERROR* 	v1.7.1.0	2017/04/14 - 16:13:37: [ThemeRepository] Theme configuration file not found for theme at `W:\domains\prestashop171delolt/themes/StarterTheme/config/theme.yml`. at line 129 in file src/Core/Addon/Theme/ThemeRepository.php
+*ERROR* 	v1.7.1.0	2017/04/14 - 16:15:28: [ThemeRepository] Theme configuration file not found for theme at `W:\domains\prestashop171delolt/themes/StarterTheme/config/theme.yml`. at line 129 in file src/Core/Addon/Theme/ThemeRepository.php
+*ERROR* 	v1.7.1.0	2017/04/14 - 16:17:00: [ThemeRepository] Theme configuration file not found for theme at `W:\domains\prestashop171delolt/themes/StarterTheme1/config/theme.yml`. at line 129 in file src/Core/Addon/Theme/ThemeRepository.php
+*ERROR* 	v1.7.1.0	2017/04/14 - 16:17:47: [ThemeRepository] Theme configuration file not found for theme at `W:\domains\prestashop171delolt/themes/StarterTheme1/config/theme.yml`. at line 129 in file src/Core/Addon/Theme/ThemeRepository.php

@@ -1,0 +1,31 @@
+170413 12:41:02 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+170413 12:41:02 [Note] c:\openserver\modules\database\MySQL-5.5-x64\bin\mysqld.exe (mysqld 5.5.53) starting as process 9104 ...
+170413 12:41:02 [Note] Plugin 'FEDERATED' is disabled.
+170413 12:41:02 InnoDB: The InnoDB memory heap is disabled
+170413 12:41:02 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170413 12:41:02 InnoDB: Compressed tables use zlib 1.2.3
+170413 12:41:02 InnoDB: Initializing buffer pool, size = 128.0M
+170413 12:41:02 InnoDB: Completed initialization of buffer pool
+170413 12:41:02 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170413 12:41:02  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170413 12:41:04  InnoDB: Waiting for the background threads to start
+170413 12:41:05 InnoDB: 5.5.53 started; log sequence number 28585816
+170413 12:41:05 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170413 12:41:05 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170413 12:41:05 [Note] Server socket created on IP: '127.0.0.1'.
+170413 12:41:05 [Note] Event Scheduler: Loaded 0 events
+170413 12:41:05 [Note] c:\openserver\modules\database\MySQL-5.5-x64\bin\mysqld.exe: ready for connections.
+Version: '5.5.53'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170413 12:41:52 [Note] c:\openserver\modules\database\MySQL-5.5-x64\bin\mysqld.exe: Normal shutdown
+
+170413 12:41:52 [Note] Event Scheduler: Purging the queue. 0 events
+170413 12:41:52  InnoDB: Starting shutdown...
+170413 12:41:54  InnoDB: Shutdown completed; log sequence number 28586388
+170413 12:41:54 [Note] c:\openserver\modules\database\MySQL-5.5-x64\bin\mysqld.exe: Shutdown complete
+
