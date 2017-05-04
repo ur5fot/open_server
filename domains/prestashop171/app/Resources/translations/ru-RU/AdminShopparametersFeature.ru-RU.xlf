@@ -98,7 +98,7 @@ File: classes/lang/GenderLang.php:40</note>
       </trans-unit>
       <trans-unit id="773442a125403cbb194c24c5a8d59b88" approved="yes">
         <source>Mrs.</source>
-        <target xml:lang="ru">Г-жа</target>
+        <target xml:lang="ru">Товарищ</target>
         <note>Context:
 File: classes/lang/GenderLang.php:41</note>
       </trans-unit>

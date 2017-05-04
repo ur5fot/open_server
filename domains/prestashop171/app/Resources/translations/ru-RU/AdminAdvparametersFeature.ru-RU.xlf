@@ -696,7 +696,7 @@ File: controllers/admin/AdminImportController.php:385</note>
       </trans-unit>
       <trans-unit id="f323be7152201bfc856e649e84e9d64c" approved="yes">
         <source>Titles ID (Mr = 1, Ms = 2, else 0)</source>
-        <target xml:lang="ru">ID названий (Г-н = 1, Г-жа = 2, другое = 0)</target>
+        <target xml:lang="ru">ID названий (11111 = 1, Г-жа = 2, другое = 0)</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:345</note>
       </trans-unit>
