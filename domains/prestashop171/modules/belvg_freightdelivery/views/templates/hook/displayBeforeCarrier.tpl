@@ -24,31 +24,56 @@
 * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
 *}
 
+
 <div id="freight_company_details" class="unvisible">
-    <!--<textarea class="form-control" rows="3" name="freight_company_details" placeholder="{l s='Please, enter information to the freight company' mod='belvg_freightdelivery'}">{if isset($freight_company_carrier_details) && $freight_company_carrier_details}{$freight_company_carrier_details}{/if}</textarea>
-    -->
-    <select id="deliveryCity">
-        {foreach from=$rposoft_nova_poshta_locations_delivery item=item}
-            <option value="{$item['deliveryRef']}">{$item['descriptionRu']}</option>
-        {/foreach}
-    </select>
-    {*print_r('<pre>')}
-    {print_r($rposoft_nova_poshta_locations_delivery)}
-    {print_r('</pre>')*}
-    <select id="warehouses">
-        <option value="volvo">Volvo</option>
-    </select>
-    <script type="text/javascript">
-        {literal}
 
-            
+    <select class="js-search-city" style="width: 100%;">
+        {*<option value="0" selected="selected">Выберете город</option>*}
+    </select>
 
-        {/literal}
+    <script id="tpl-new-post-dis" type="text/template">
+        <h1><%- CityDescriptionRu%></h1>
+        <p><%- DescriptionRu%></p>
+
+        <ul>
+            <li>Friday -<%- Schedule.Friday%></li>
+            <li>Friday - <%- Schedule.Friday%></li>
+            <li>Saturday - <%- Schedule.Saturday%></li>
+            <li>Sunday - <%- Schedule.Sunday%></li>
+            <li>Thursday -<%- Schedule.Thursday%></li>
+        </ul>
+
+
     </script>
 
-    <style>
-        {literal}
-            #freight_company_details{ margin-bottom: 5px }
-        {/literal}
-    </style>
+    <div class="new-post-wrapp ">
+        <select class="js-new-post hide" style="width: 100%;">
+            {*<option value="0" selected="selected">Выберите отделение</option>*}
+        </select>
+        <div class="result">
+
+        </div>
+
+        <script id="tpl-new-post-list-city" type="text/template">
+
+            <div class="wrapper">
+                <h3><%- descriptionRu %></h3>
+                <p>
+                    <% if ( regionsDescriptionRu !== '') { %>
+                    <%- regionsDescriptionRu %>,
+                    <% }; %>
+                    <%- areaDescriptionRu %>
+                </p>
+
+                <% if ( +warehouse) { %>
+                <p>
+                    есть отделение новой почты
+                </p>
+                <% }; %>
+
+
+            </div>
+
+        </script>
+    </div>
 </div>

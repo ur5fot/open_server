@@ -1,14 +1,14 @@
 $(function () {
-
-    var baseUrl = prestashop.urls.base_url;
-
-    $(".js-data-example-ajax").select2({
-        placeholder: 'Выберете город',
-        /* allowClear: true,*/
+    var $searchCity = $('.js-search-city');
+    var $newPost = $('.js-new-post');
+    // var $newPost = $('.js-new-post');
+    $searchCity.select2({
+        language: "ru",
+        placeholder: 'Выберите город',
         ajax: {
-            url: baseUrl + 'modules/belvg_freightdelivery/classes/' + 'AjaxRequest.php',
+            url: 'modules/belvg_freightdelivery/classes/AjaxRequest.php',
             dataType: 'json',
-            delay: 250,
+            delay: 500,
             type: 'GET',
             data: function (params) {
                 // console.log('data', params);
@@ -18,11 +18,8 @@ $(function () {
                 };
             },
             processResults: function (data, params) {
-
-
-                params.page = params.page || 1;
                 // console.log('processResults', arguments);
-
+                params.page = params.page || 1;
                 return {
                     results: data,
                     pagination: {
@@ -30,25 +27,16 @@ $(function () {
                     }
                 };
             },
-            success: function (data) {
-                // console.log('select2 ajax', data);
-            },
             cache: true
         },
-        escapeMarkup: function (markup) {
-            // console.log('select2 escapeMarkup', markup);
-
-            return markup;
-
-        }, // let our custom formatter work
-        minimumInputLength: 2,
+        minimumInputLength: 3,
         templateResult: function (data, elem) {
-            if (data.id === '') {
-                return 'Custom styled placeholder text';
-            }
             // console.log('templateResult',arguments);
 
-            return data.descriptionRu;
+            if (!data.disabled) {
+                var tpl = _.template($('#tpl-new-post-list-city').html());
+                return $(elem).html(tpl(data));
+            }
         },
         templateSelection: function (data, container) {
             // console.log('templateSelection ', arguments);
@@ -56,102 +44,87 @@ $(function () {
                 return 'Выберете город';
             }
             return data.descriptionRu;
-
-
-
-
         }
 
     });
 
-    $(".js-data-example-ajax").on('select2:select', function (e) {
+
+    $searchCity.on('select2:select', function (e) {
         var $this = $(this);
-        console.log('select2:select', arguments);
-        // console.log('select2:select', $this.val());
-        $.ajax({
-            url: baseUrl + 'modules/belvg_freightdelivery/classes/' + 'AjaxRequest.php',
-            dataType: 'json',
-            type: 'GET',
-            data: {
-                request: 'getCityWarehouse',
-                param1: $this.val()
-            },
-            success: function (data, elem) {
-                console.log('select2:select ajax success', arguments);
-                var selects = [];
+        // console.log('select2:select', arguments);
+        $('.checkout--_partials--steps--shipping_options-list').show(300);
+        if (+e.params.data.warehouse) {
+            $.ajax({
+                url: 'modules/belvg_freightdelivery/classes/AjaxRequest.php',
+                dataType: 'json',
+                type: 'GET',
+                data: {
+                    request: 'getCityWarehouse',
+                    param1: $this.val()
+                },
+                success: function (data, elem) {
+                    // console.log('select2:select ajax success', arguments);
+                    var selects = [];
 
 
-                $.map(data.data, function (item, i) {
-                    selects.push({
-                        id: item.Ref,
-                        text: item.DescriptionRu,
-                        paramters: item
+                    $.map(data.data, function (item, i) {
+                        selects.push({
+                            id: item.Ref,
+                            text: item.DescriptionRu,
+                            paramters: item
 
-                    })
-                });
+                        })
+                    });
 
-                $(".js-example-data-array").empty();
-                console.log(selects);
-                $(".js-example-data-array").select2({
-                    placeholder: "Выберите отделение",
-                    data: selects,
-                    templateSelection: function (_data, container) {
-                        console.log('js-example-basic-single templateSelection ', arguments);
-                       /* if (_data.id === '') {
-                            return 'Выберите отделение';
-                        }*/
-                        if (_data.paramters) {
-                            $('.result').html('<h2>' + _data.paramters.CityDescriptionRu + '</h2> <p>' + _data.paramters.DescriptionRu + '</p>');
-                            return _data.text;
-                        };
+                    $newPost
+                        .removeClass('hide')
+                        .empty()
+                        .select2({
+                            language: "ru",
+                            placeholder: "",
+                            data: selects,
+                            templateSelection: function (_data, container) {
+                                // console.log('s-example-data-array templateSelection ', arguments);
 
-                    }
-                });
+                                if (_data.paramters) {
 
-                /*$(".js-example-data-array").select2({
-                 data:selects,
-                 templateSelection:function (datas, container) {
-                 console.log('js-example-basic-single templateSelection ', arguments);
-                 if (data.id !== 1) {
-                 $('.result').html('<h2>' + datas.data.CityDescriptionRu + '</h2> <p>' + datas.data.DescriptionRu + '</p>');
-                 // return data.text;
-                 }
-                 return data.text;
-                 }
-                 });*/
-                $(".js-example-data-array").prop("disabled", false);
+                                    var tpl = _.template($('#tpl-new-post-dis').html());
+                                    $('.result')
+                                        .hide()
+                                        .html(tpl(_data.paramters))
+                                        .show(300);
 
-                // console.log('select2 success',data);
-                /* $('.result').html('');
-                 $.each(data.data,function (i, item) {
-                 // console.log(item);
-                 $('.result').append('<p>' + item.DescriptionRu + '</p>' )
-                 });*/
+                                    return _data.text;
 
-            }
+                                }
+                            }
+                        })
+                        .prop("disabled", false);
 
-        })
+                    $('.new-post-wrapp').show(300);
+
+                    $('#delivery_option_5')
+                        .click()
+                        .parent('.delivery-option')
+                        .show(300);
+
+                }
+
+            })
+        } else {
+            $('.new-post-wrapp').hide(300);
+
+            $('#delivery_option_3').click();
+            $('#delivery_option_5')
+                .parent('.delivery-option')
+                .hide(300);
+
+            $newPost.prop("disabled", true)
+        }
     });
-    $(".js-example-data-array").select2({
-        placeholder: "Выберите отделение"
-    });
-    $(".js-example-data-array").prop("disabled", true);
-
-
-    /*$(".js-example-basic-single").on('select2:select', function (e) {
-     console.log('.js-example-basic-single select2:select', arguments);
-     });*/
-
-    /*
-     {
-     "id": "value attribute" || "option text",
-     "text": "label attribute" || "option text",
-     "element": HTMLOptionElement
-     }
-     */
-
-
-    // $(".js-data-example-ajax").trigger('select2:select');
-
+    /*$newPost.select2({
+     placeholder: "Выберите отделение"
+     });
+     $newPost.prop("disabled", true);*/
 
 });

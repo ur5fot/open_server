@@ -14,97 +14,88 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42616823">
+    <splitter split-orientation="horizontal" split-proportion="0.6094822">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="shipping.tpl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/shipping.tpl">
+          <file leaf-file-name="addresses.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/addresses.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="74" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="history.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/history.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shipping.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/themes/books/assets/js/templates/checkout/_partials/steps/shipping.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="791">
+                  <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
                   <folding>
-                    <element signature="n#style#0;n#select#0;n#div#1;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#select#1;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="unreachable.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/unreachable.tpl">
+          <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/assets/js/templates/checkout/cart.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="536">
+                  <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cart.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/cart.tpl">
+          <file leaf-file-name="page.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/page.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+                <state relative-caret-position="612">
+                  <caret line="93" column="25" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="checkout-process.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/checkout-process.tpl">
+          <file leaf-file-name="theme.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/theme.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/templates/page.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="order-confirmation.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/order-confirmation.tpl">
+          <file leaf-file-name="layout-both-columns.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/templates/layouts/layout-both-columns.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-742">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/footer.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="checkout.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/checkout.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="737">
-                  <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="checkout-step.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/checkout-step.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/templates/catalog/product.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+                <state relative-caret-position="629">
+                  <caret line="37" column="17" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="37" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -117,78 +108,29 @@
           <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/theme.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="49">
-                  <caret line="86" column="54" lean-forward="false" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="shipping.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/checkout/_partials/steps/shipping.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_commons.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/_commons.scss">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
-                  <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="5" />
+                  <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shipping.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/templates/checkout/_partials/steps/shipping.js">
+          <file leaf-file-name="_layout-both-columns.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/layouts/_layout-both-columns.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="belvg_freightdelivery.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/modules/belvg_freightdelivery/views/js/belvg_freightdelivery.js">
+          <file leaf-file-name="theme.yml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/books/config/theme.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1819">
-                  <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+                <state relative-caret-position="635">
+                  <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="belvg_freightdelivery.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/belvg_freightdelivery/belvg_freightdelivery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="116">
-                  <caret line="255" column="96" lean-forward="false" selection-start-line="255" selection-start-column="96" selection-end-line="255" selection-end-column="96" />
-                  <folding>
-                    <marker date="1493890619057" expanded="true" signature="2720:2783" ph="DROP TABLE I... " />
-                    <marker date="1493890619057" expanded="true" signature="3042:3425" ph="CREATE TABLE... IF" />
-                    <marker date="1493890619057" expanded="true" signature="10511:10609" ph="SELECT deliv... ${_DB_PREFIX_}rposoft_nova_poshta_locations_delivery" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AjaxRequest.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/belvg_freightdelivery/classes/AjaxRequest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="27" column="198" lean-forward="false" selection-start-line="27" selection-start-column="198" selection-end-line="27" selection-end-column="198" />
-                  <folding>
-                    <element signature="n#__construct#0;n#AjaxRequest#0;n#!!top" expanded="false" />
-                    <element signature="n#sendPostRequest#0;n#AjaxRequest#0;n#!!top" expanded="false" />
-                    <marker date="1493895279115" expanded="true" signature="905:1047" ph="SELECT id, d... ps_rposoft_nova_poshta_locations_delivery" />
-                    <marker date="1493895279115" expanded="true" signature="905:1083" ph="SELECT deliv... ps_rposoft_nova_poshta_locations_delivery" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -202,15 +144,12 @@
       <list>
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>page-content</find>
-      <find>login</find>
-      <find>my</find>
-      <find>cus</find>
       <find>ps_searchbar</find>
       <find>cart-detailed-product-line</find>
       <find>my-account</find>
@@ -229,6 +168,18 @@
       <find>js-data-example-ajax</find>
       <find>contactform.tpl</find>
       <find>div id=&quot;search_filters&quot; class=&quot;templates--catalog--_partials--facets</find>
+      <find>hide</find>
+      <find>hid</find>
+      <find>.hid</find>
+      <find>addJ</find>
+      <find>add</find>
+      <find>deli</find>
+      <find>page-content page-my-account</find>
+      <find>page_content</find>
+      <find>page_header_container</find>
+      <find>page_content_container</find>
+      <find>121q</find>
+      <find>addjs</find>
     </findStrings>
     <dirStrings>
       <dir>C:\OpenServer\domains\prestashop171\modules</dir>
@@ -238,13 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/catalog/_partials/_facets.scss" />
-        <option value="$PROJECT_DIR$/themes/books/_dev/js/templates/catalog/_partials/facets.js" />
-        <option value="$PROJECT_DIR$/themes/books/modules/ps_imageslider/views/templates/hook/slider.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/modules/ps_imageslider/css/homeslider.css" />
-        <option value="$PROJECT_DIR$/themes/books/templates/customer/authentication.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/customer/_partials/_login-form.scss" />
-        <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/customer/_authentication.scss" />
         <option value="$PROJECT_DIR$/themes/books/templates/customer/_partials/customer-form.tpl" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/modules/ps_searchbar/_ps_searchbar.scss" />
         <option value="$PROJECT_DIR$/themes/books/modules/ps_searchbar/ps_searchbar.tpl" />
@@ -252,33 +196,50 @@
         <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/customer/_partials/_customer-form.scss" />
         <option value="$PROJECT_DIR$/themes/books/templates/customer/order-detail.tpl" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/customer/_my-account.scss" />
-        <option value="$PROJECT_DIR$/themes/books/_dev/css/_commons.scss" />
         <option value="$PROJECT_DIR$/themes/books/templates/page.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/templates/customer/page.tpl" />
         <option value="$PROJECT_DIR$/themes/books/templates/customer/address.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/templates/customer/addresses.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/templates/customer/identity.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/templates/customer/my-account.tpl" />
-        <option value="$PROJECT_DIR$/themes/books/templates/customer/history.tpl" />
         <option value="$PROJECT_DIR$/app/Resources/translations/ru-RU/AdminShopparametersFeature.ru-RU.xlf" />
         <option value="$PROJECT_DIR$/app/cache/prod/translations/catalogue.ru-RU.8739602554c7f3241958e3cc9b57fdecb474d508.php" />
         <option value="$PROJECT_DIR$/app/Resources/translations/ru-RU/AdminAdvparametersFeature.ru-RU.xlf" />
         <option value="$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopFormsLabels.ru-RU.xlf" />
-        <option value="$PROJECT_DIR$/themes/books/modules/ps_imageslider/js/homeslider.js" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/_partials/_header.scss" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/modules/ps_linklist/_linkblock.scss" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/catalog/_partials/miniatures/_product.scss" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/checkout/steps/shipping.scss" />
-        <option value="$PROJECT_DIR$/themes/books/_dev/css/theme.scss" />
         <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/checkout/_partials/steps/shipping.scss" />
-        <option value="$PROJECT_DIR$/themes/books/_dev/js/theme.js" />
         <option value="$PROJECT_DIR$/modules/belvg_freightdelivery/belvg_freightdelivery.php" />
         <option value="$PROJECT_DIR$/themes/books/_dev/js/templates/checkout/_partials/steps/shipping.js" />
         <option value="$PROJECT_DIR$/belvg_freightdelivery/belvg_freightdelivery.php" />
-        <option value="$PROJECT_DIR$/themes/books/templates/checkout/checkout.tpl" />
         <option value="$PROJECT_DIR$/modules/belvg_freightdelivery/classes/AjaxRequest.php" />
+        <option value="$PROJECT_DIR$/themes/books/assets/js/external-lib.js" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/js/libs/lodash.min.js" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/js/libs/select2/select2.min.css" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/js/libs/select2/select2.min.js" />
+        <option value="$PROJECT_DIR$/themes/books/templates/checkout/checkout.tpl" />
         <option value="$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/shipping.tpl" />
+        <option value="$PROJECT_DIR$/modules/belvg_freightdelivery/views/templates/hook/displayBeforeCarrier.tpl" />
         <option value="$PROJECT_DIR$/modules/belvg_freightdelivery/views/js/belvg_freightdelivery.js" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/js/templates/catalog/_partials/facets.js" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/css/theme.scss" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/css/commons_bottom.css" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/css/_commons.scss" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/css/_commons_bottom.css" />
+        <option value="$PROJECT_DIR$/themes/books/modules/ps_categorytree/views/templates/hook/ps_categorytree.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/modules/ps_imageslider/views/templates/hook/slider.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/modules/ps_imageslider/js/homeslider.js" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/js/cart.js" />
+        <option value="$PROJECT_DIR$/themes/books/assets/js/templates/checkout/cart.js" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/js/theme.js" />
+        <option value="$PROJECT_DIR$/themes/books/assets/js/theme.js" />
+        <option value="$PROJECT_DIR$/themes/books/templates/customer/my-account.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/templates/customer/history.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/templates/customer/addresses.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/templates/customer/identity.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/templates/customer/page.tpl" />
+        <option value="$PROJECT_DIR$/themes/books/assets/js/templates/catalog/_partials/facets.js" />
+        <option value="$PROJECT_DIR$/themes/books/config/theme.yml" />
+        <option value="$PROJECT_DIR$/themes/books/_dev/css/templates/layouts/_layout-both-columns.scss" />
+        <option value="$PROJECT_DIR$/themes/books/assets/js/templates/checkout/_partials/steps/shipping.js" />
       </list>
     </option>
   </component>
@@ -290,6 +251,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/themes/books/_dev/node_modules" />
+    <handled-path value="$PROJECT_DIR$/themes/books/assets/node_modules" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -316,7 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,29 +290,245 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop171" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ajax&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/modules/belvg_freightdelivery/classes/AjaxRequest.php&#10;_comm&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/_commons.scss&#10;the&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/theme.scss&#10;address&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/templates/customer/addresses.tpl&#10;he&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/templates/_partials/_header.scss&#10;auttpl&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/templates/customer/authentication.tpl&#10;logintpl&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/templates/customer/_partials/login-form.tpl&#10;them.s&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/theme.scss&#10;_commsc&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/_commons.scss" />
+    <property name="SearchEverywhereHistoryKey" value="ps_.s&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/modules/ps_categorytree/_ps_categorytree.scss&#10;_co&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/_commons.scss&#10;the&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/config/theme.yml&#10;them&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/js/theme.js&#10;theme.y&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/config/theme.yml&#10;ajax&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/modules/belvg_freightdelivery/classes/AjaxRequest.php&#10;_comm&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/_commons.scss&#10;address&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/templates/customer/addresses.tpl&#10;he&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/templates/_partials/_header.scss&#10;auttpl&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/templates/customer/authentication.tpl&#10;logintpl&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/templates/customer/_partials/login-form.tpl&#10;them.s&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/theme.scss&#10;_commsc&#9;FILE&#9;file://C:/OpenServer/domains/prestashop171/themes/books/_dev/css/_commons.scss" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\prestashop171\themes\books\assets\js\templates\checkout" />
+      <recent name="C:\OpenServer\domains\prestashop171\themes\books\assets\js" />
       <recent name="C:\OpenServer\domains\prestashop171\themes\books\_dev\css\templates\checkout\_partials" />
       <recent name="C:\OpenServer\domains\prestashop171\themes\books\modules\ps_imageslider\css" />
       <recent name="C:\OpenServer\domains\prestashop171\themes\books\modules\ps_imageslider\js" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\prestashop171\themes\books\assets\js" />
+      <recent name="C:\OpenServer\domains\prestashop171\themes\books\_dev\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -426,35 +603,69 @@
       <workItem from="1493274030396" duration="24130000" />
       <workItem from="1493360759807" duration="20536000" />
       <workItem from="1493792491073" duration="25403000" />
-      <workItem from="1493879264183" duration="26282000" />
+      <workItem from="1493879264183" duration="31323000" />
+      <workItem from="1493967785644" duration="21933000" />
+      <workItem from="1494051908952" duration="17489000" />
+      <workItem from="1494074621272" duration="7669000" />
+      <workItem from="1494397764438" duration="14179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104734000" />
+    <option name="totallyTimeSpent" value="172421000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16702127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14734043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -469,373 +680,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/cache/prod/translations/catalogue.ru-RU.8739602554c7f3241958e3cc9b57fdecb474d508.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="2999" column="23" lean-forward="true" selection-start-line="2999" selection-start-column="23" selection-end-line="2999" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopNavigation.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopNotificationsError.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopNotificationsInfo.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopNotificationsSuccess.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopNotificationsWarning.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopPdf.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopTheme.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopThemeCustomeraccount.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contactform/config_ru.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/js/homeslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/default/messages.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="183" column="19" lean-forward="false" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/ShopFormsLabels.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/ru-RU/AdminAdvparametersFeature.ru-RU.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="698" column="48" lean-forward="false" selection-start-line="698" selection-start-column="48" selection-end-line="698" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/catalog/_partials/miniatures/_product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="95" column="15" lean-forward="false" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/checkout/_partials/_cart-detailed-product-line.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/modules/ps_customersignin/_ps_customersignin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/modules/ps_linklist/_linkblock.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/_partials/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/addresses.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/plugins/get_query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/_partials/head.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/_partials/javascript.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/layouts/layout-both-columns.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/addresses.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/payment.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/personal-information.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/address-selector-block.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/cart-empty.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/belvg_freightdelivery/belvg_freightdelivery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4148">
-          <caret line="258" column="58" lean-forward="false" selection-start-line="258" selection-start-column="58" selection-end-line="258" selection-end-column="58" />
-          <folding>
-            <element signature="e#6#558#0#PHP" expanded="false" />
-            <marker date="1493819903447" expanded="true" signature="2720:2783" ph="DROP TABLE I... " />
-            <marker date="1493819903447" expanded="true" signature="3042:3425" ph="CREATE TABLE... IF" />
-            <marker date="1493819903447" expanded="true" signature="10483:10581" ph="SELECT deliv... ${_DB_PREFIX_}rposoft_nova_poshta_locations_delivery" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/address-form.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contactform/contactform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contactform/views/templates/widget/contactform.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/catalog/_partials/facets.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/catalog/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/cart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/checkout-step.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_categorytree/ps_categorytree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4369">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/templates/catalog/_partials/facets.js" />
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/templates/catalog/_partials/product-cover-thumbnails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/_commons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/checkout.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/order-confirmation.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-742">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/checkout-process.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/unreachable.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/belvg_freightdelivery/belvg_freightdelivery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="255" column="96" lean-forward="false" selection-start-line="255" selection-start-column="96" selection-end-line="255" selection-end-column="96" />
-          <folding>
-            <marker date="1493890619057" expanded="true" signature="2720:2783" ph="DROP TABLE I... " />
-            <marker date="1493890619057" expanded="true" signature="3042:3425" ph="CREATE TABLE... IF" />
-            <marker date="1493890619057" expanded="true" signature="10511:10609" ph="SELECT deliv... ${_DB_PREFIX_}rposoft_nova_poshta_locations_delivery" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/checkout/_partials/steps/shipping.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="86" column="54" lean-forward="false" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/belvg_freightdelivery/classes/AjaxRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="198" lean-forward="false" selection-start-line="27" selection-start-column="198" selection-end-line="27" selection-end-column="198" />
-          <folding>
-            <element signature="n#__construct#0;n#AjaxRequest#0;n#!!top" expanded="false" />
-            <element signature="n#sendPostRequest#0;n#AjaxRequest#0;n#!!top" expanded="false" />
-            <marker date="1493895279115" expanded="true" signature="905:1047" ph="SELECT id, d... ps_rposoft_nova_poshta_locations_delivery" />
-            <marker date="1493895279115" expanded="true" signature="905:1083" ph="SELECT deliv... ps_rposoft_nova_poshta_locations_delivery" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="315" column="17" lean-forward="false" selection-start-line="315" selection-start-column="17" selection-end-line="315" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -843,26 +713,379 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/modules/ps_categorytree/_ps_categorytree.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/_commons_bottom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_categorytree/views/templates/hook/ps_categorytree.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="54" column="77" lean-forward="false" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/js/responsiveslides.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_imageslider/upgrade/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/images/sample-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/views/templates/hook/list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/homeslider.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_imageslider/Ps_HomeSlide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_imageslider/ps_imageslider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="530" column="64" lean-forward="false" selection-start-line="530" selection-start-column="64" selection-end-line="530" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_imageslider/ajax_ps_imageslider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_imageslider/js/homeslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/views/templates/hook/slider.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="27" column="167" lean-forward="false" selection-start-line="27" selection-start-column="157" selection-end-line="27" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/checkout/CheckoutProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/assets/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="414" column="0" lean-forward="false" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/modules/ps_imageslider/js/homeslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/checkout/DeliveryOptionsFinder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/checkout/CheckoutSession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="102" column="15" lean-forward="false" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/checkout/AbstractCheckoutStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/checkout/CheckoutDeliveryStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_imageslider/upgrade/upgrade-from-homeslider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/checkout/CheckoutPaymentStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="29" column="58" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/books/templates/checkout/_partials/steps/shipping.tpl">
+    <entry file="file://$PROJECT_DIR$/app/cache/prod/class_stub.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="74" />
+        <state relative-caret-position="311">
+          <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/my-account (Конфликтующая копия с компьютера Дима Торопов 2017-04-28).tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/my-account.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/identity.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/addresses.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/layouts/layout-both-columns.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/page.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/page.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="93" column="25" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/modules/ps_categorytree/ps_categorytree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_facetedsearch/ps_facetedsearch-price-indexer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_facetedsearch/ps_facetedsearch-attribute-indexer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_facetedsearch/ps_facetedsearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="1184" column="58" lean-forward="true" selection-start-line="1184" selection-start-column="58" selection-end-line="1184" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#select#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#1;n#!!top" expanded="true" />
+            <marker date="1490887572000" expanded="true" signature="3700:3745" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
+            <marker date="1490887572000" expanded="true" signature="5470:5525" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="5565:5634" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="5674:5735" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="5775:5849" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="5889:5969" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6009:6081" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6121:6199" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6239:6291" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6331:6381" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6421:6476" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6516:6577" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6720:6777" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="6821:7233" ph="CREATE TABLE... ${_DB_PREFIX_}layered_price_index" />
+            <marker date="1490887572000" expanded="true" signature="7370:7441" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="7484:7713" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_attribute_group" />
+            <marker date="1490887572000" expanded="true" signature="7757:7888" ph="INSERT INTO `${_DB_PREFIX_}layered_indexable_attribute_group`... " />
+            <marker date="1490887572000" expanded="true" signature="7822:7888" ph="SELECT id_at... ${_DB_PREFIX_}attribute_group" />
+            <marker date="1490887572000" expanded="true" signature="7929:8011" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="8054:8348" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_attribute_group_lang_value" />
+            <marker date="1490887572000" expanded="true" signature="8412:8488" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="8531:8807" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_attribute_lang_value" />
+            <marker date="1490887572000" expanded="true" signature="8869:8932" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="8975:9180" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_feature" />
+            <marker date="1490887572000" expanded="true" signature="9225:9332" ph="INSERT INTO `${_DB_PREFIX_}layered_indexable_feature`... " />
+            <marker date="1490887572000" expanded="true" signature="9282:9332" ph="SELECT id_fe... ${_DB_PREFIX_}feature" />
+            <marker date="1490887572000" expanded="true" signature="9373:9447" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="9490:9769" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_feature_lang_value" />
+            <marker date="1490887572000" expanded="true" signature="9838:9918" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="9961:10249" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_feature_value_lang_value" />
+            <marker date="1490887572000" expanded="true" signature="10409:10472" ph="DROP TABLE I... " />
+            <marker date="1490887572000" expanded="true" signature="10515:10975" ph="CREATE TABLE... ${_DB_PREFIX_}layered_product_attribute" />
+            <marker date="1490887572000" expanded="true" signature="11249:11342" ph="DELETE FROM " />
+            <marker date="1490887572000" expanded="true" signature="11440:11544" ph="DELETE FROM " />
+            <marker date="1490887572000" expanded="true" signature="11643:11839" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_attribute_group... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/belvg_freightdelivery/views/js/belvg_freightdelivery.js">
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/pruduct_filter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        <state relative-caret-position="655">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/assets/js/templates/catalog/_partials/facets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/templates/customer/history.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/config/theme.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_/filemanager/js/jquery.contextMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <marker date="1490887520000" expanded="true" signature="47064:47180" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/assets/js/templates/checkout/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/_dev/css/templates/layouts/_layout-both-columns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/books/assets/js/templates/checkout/_partials/steps/shipping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

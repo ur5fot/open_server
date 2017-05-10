@@ -307,7 +307,8 @@
 <module name="ps_cashondelivery" position="54"/>
 <module name="bankwire" position="55"/>
 <module name="cheque" position="56"/>
-<module name="ps_wirepaymentment" position="57"/>
+<module name="ps_wirepayment" position="57"/>
+<module name="ps_checkpayment" position="58"/>
 </tab>
 <tab class_name="AdminCarriers" display_type="slider_list">
 <module name="bpostshm" position="1"/>

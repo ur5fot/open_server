@@ -20,28 +20,28 @@ class AjaxRequest {
         print_r($this->result);
     }
 
-    private function getCitiesByString($requestCityName = "") {
+    protected function getCitiesByString($requestCityName = "") {
         //return __FUNCTION__."<br>".$requestCityName;
 
         if ($requestCityName != "" && $requestCityName != null && !is_numeric($requestCityName)) {
             $select = Db::getInstance()->executeS(
-                    'SELECT id, deliveryRef, descriptionRu FROM `ps_rposoft_nova_poshta_locations_delivery` WHERE descriptionRu LIKE "%' . $requestCityName . '%"'
+                    'SELECT ref as id, descriptionRu, regionsDescriptionRu, areaDescriptionRu, warehouse FROM `ps_rposoft_nova_poshta_locations` WHERE descriptionRu LIKE "%' . $requestCityName . '%" ORDER BY CHAR_LENGTH(descriptionRu)'
             );
             return json_encode($select);
         }
         return json_encode(false);
     }
 
-    private function getCityWarehouse($requestCityRef = null) {
+    protected function getCityWarehouse($requestCityRef = null) {
         //return __FUNCTION__ . "<br>" . $requestCityId;
 
         if ($requestCityRef != "" && $requestCityRef != null && !is_numeric($requestCityRef)) {
             $data = "
 {
-    \"modelName\": \"AddressGeneral\",
+    \"modelName\": \"Address\",
     \"calledMethod\": \"getWarehouses\",
     \"methodProperties\": {
-        \"CityRef\": \"$requestCityRef\"
+        \"SettlementRef\": \"$requestCityRef\"
     },
     \"apiKey\": \"f792d700f752e8c039cbf07801323474\"
 }";

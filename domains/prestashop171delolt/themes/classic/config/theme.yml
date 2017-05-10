@@ -26,25 +26,23 @@ meta:
       description: Two columns with a small right column
 
 assets:
-  # If you're using this theme as child and you want to load
-  # the parent theme assets, uncomment this line.
-#  use_parent_assets: true
-
-  # The following lines are showing how to load assets in your page
-  # Uncomment and change value to start loading css or js files
-#  css:
-#    all:
-#      - id: custom-lib-style
-#        path: assets/css/custom-lib.css
-#    product:
-#      - id: product-style
-#        path: assets/css/product.css
-#        media: all
-#        priority: 200
-#  js:
-#    cart:
-#      - id: cat-extra-lib
-#        path: assets/js/cart-lib.js
+  css:
+    product:
+      - id: product-extra-style
+        path: assets/css/product.css
+        media: all
+        priority: 100
+  js:
+    all:
+      - id: this-cool-lib
+        path: assets/js/external-lib.js
+        priority: 30
+        position: bottom
+    product:
+      - id: product-custom-lib
+        path: assets/js/product.js
+        priority: 200
+        attribute: async
 
 
 global_settings:
