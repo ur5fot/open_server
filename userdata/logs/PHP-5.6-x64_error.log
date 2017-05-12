@@ -1,2 +1,0 @@
-[10-May-2017 17:30:53 Europe/Moscow] PHP Fatal error:  Uncaught  --> Smarty: unable to write file W:\domains\prestashop171/app/cache/prod\smarty/compile\24\9a\6f\249a6f2dbacb8560f3bd5cea280b8bef9e7a7eb3.file.order_conf_product_list.txt.php <-- 
-  thrown in W:\domains\prestashop171\vendor\prestashop\smarty\sysplugins\smarty_internal_write_file.php on line 74

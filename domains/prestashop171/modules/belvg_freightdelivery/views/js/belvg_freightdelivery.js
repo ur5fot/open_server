@@ -2,6 +2,14 @@ $(function () {
     var $searchCity = $('.js-search-city');
     var $newPost = $('.js-new-post');
     // var $newPost = $('.js-new-post');
+
+    var $city = $('input[name=city]');
+    var $address2 = $('input[name=address2]');
+    // var $address2 = $('<input name="address2" type="text" value="">');
+
+    // $city.parent().hide();
+    // $address2.parent().hide();
+
     $searchCity.select2({
         language: "ru",
         placeholder: 'Выберите город',
@@ -48,22 +56,36 @@ $(function () {
 
     });
 
+var e ;
+    $searchCity.on('select2:select', function (ee) {
 
-    $searchCity.on('select2:select', function (e) {
         var $this = $(this);
-        // console.log('select2:select', arguments);
+        e = ee;
+        console.log('select2:select', e);
+        $city.val(e.params.data.id);
+        $address2.val(e.params.data.warehouse);
+
+    });
+
+    if ($('#checkout-delivery-step').is('.-current')) {
+
+       /* var cityData =  JSON.parse(prestashop.customer.addresses[prestashop.cart.id_address_delivery].address2);
+
+        console.log(cityData);*/
+
         $('.checkout--_partials--steps--shipping_options-list').show(300);
-        if (+e.params.data.warehouse) {
+        if (+prestashop.customer.addresses[prestashop.cart.id_address_delivery].address2) {
+          /*  console.log(prestashop.customer.addresses[prestashop.cart.id_address_delivery].city);*/
             $.ajax({
                 url: 'modules/belvg_freightdelivery/classes/AjaxRequest.php',
                 dataType: 'json',
                 type: 'GET',
                 data: {
                     request: 'getCityWarehouse',
-                    param1: $this.val()
+                    param1: prestashop.customer.addresses[prestashop.cart.id_address_delivery].city
                 },
                 success: function (data, elem) {
-                    // console.log('select2:select ajax success', arguments);
+                    console.log('select2:select ajax success', arguments);
                     var selects = [];
 
 
@@ -121,7 +143,8 @@ $(function () {
 
             $newPost.prop("disabled", true)
         }
-    });
+    }
+
     /*$newPost.select2({
      placeholder: "Выберите отделение"
      });

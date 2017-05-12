@@ -27,53 +27,55 @@
 
 <div id="freight_company_details" class="unvisible">
 
-    <select class="js-search-city" style="width: 100%;">
-        {*<option value="0" selected="selected">Выберете город</option>*}
+    {*<select class="js-search-city" style="width: 100%;">
     </select>
 
-    <script id="tpl-new-post-dis" type="text/template">
-        <h1><%- CityDescriptionRu%></h1>
-        <p><%- DescriptionRu%></p>
+    <script id="tpl-new-post-list-city" type="text/template">
 
-        <ul>
-            <li>Friday -<%- Schedule.Friday%></li>
-            <li>Friday - <%- Schedule.Friday%></li>
-            <li>Saturday - <%- Schedule.Saturday%></li>
-            <li>Sunday - <%- Schedule.Sunday%></li>
-            <li>Thursday -<%- Schedule.Thursday%></li>
-        </ul>
+        <div class="wrapper">
+            <h3><%- descriptionRu %></h3>
+            <p>
+                <% if ( regionsDescriptionRu !== '') { %>
+                <%- regionsDescriptionRu %>,
+                <% }; %>
+                <%- areaDescriptionRu %>
+            </p>
 
+            <% if ( +warehouse) { %>
+            <p>
+                есть отделение новой почты
+            </p>
+            <% }; %>
+
+
+        </div>
 
     </script>
-
+*}
     <div class="new-post-wrapp ">
         <select class="js-new-post hide" style="width: 100%;">
             {*<option value="0" selected="selected">Выберите отделение</option>*}
         </select>
+
+        <script id="tpl-new-post-dis" type="text/template">
+
+            <h1><%- CityDescriptionRu%></h1>
+            <p><%- DescriptionRu%></p>
+
+            <ul>
+                <li>Friday -<%- Schedule.Friday%></li>
+                <li>Friday - <%- Schedule.Friday%></li>
+                <li>Saturday - <%- Schedule.Saturday%></li>
+                <li>Sunday - <%- Schedule.Sunday%></li>
+                <li>Thursday -<%- Schedule.Thursday%></li>
+            </ul>
+
+        </script>
+
         <div class="result">
 
         </div>
 
-        <script id="tpl-new-post-list-city" type="text/template">
 
-            <div class="wrapper">
-                <h3><%- descriptionRu %></h3>
-                <p>
-                    <% if ( regionsDescriptionRu !== '') { %>
-                    <%- regionsDescriptionRu %>,
-                    <% }; %>
-                    <%- areaDescriptionRu %>
-                </p>
-
-                <% if ( +warehouse) { %>
-                <p>
-                    есть отделение новой почты
-                </p>
-                <% }; %>
-
-
-            </div>
-
-        </script>
     </div>
 </div>
