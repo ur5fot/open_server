@@ -2933,8 +2933,8 @@
 	var _jquery2 = _interopRequireDefault(_jquery);
 	
 	function psShowHide() {
-	  (0, _jquery2['default'])('.ps-shown-by-js').show();
-	  (0, _jquery2['default'])('.ps-hidden-by-js').hide();
+	  /*(0, _jquery2['default'])('.ps-shown-by-js').show(); TODO-THEME: удалил что бы убрать инпуты в фильтрах
+	  (0, _jquery2['default'])('.ps-hidden-by-js').hide();*/
 	}
 
 /***/ }

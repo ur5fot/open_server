@@ -1,2 +1,14 @@
-[23-May-2017 14:11:49 Europe/Moscow] PHP Fatal error:  Uncaught  --> Smarty: Unable to read template file 'layouts/layout-left-column.tpl' <-- 
-  thrown in W:\domains\prestashop171\vendor\prestashop\smarty\sysplugins\smarty_internal_resource_file.php on line 70
+[31-May-2017 17:14:06 Europe/Moscow] PHP Warning:  file_get_contents(W:\domains\prestashop171/app/cache/prod\smarty/compile\85\19\77\851977b0f9c197d4fd887d59cf6a9091e739baeb.file.login_addons.tpl.php): failed to open stream: No such file or directory in W:\domains\prestashop171\vendor\prestashop\smarty\sysplugins\smarty_internal_templatebase.php on line 156
+[31-May-2017 17:14:06 Europe/Moscow] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Invalid compiled template for 'controllers/modules/login_addons.tpl'' in W:\domains\prestashop171\vendor\prestashop\smarty\sysplugins\smarty_internal_templatebase.php:182
+Stack trace:
+#0 W:\domains\prestashop171\classes\controller\AdminController.php(2308): Smarty_Internal_TemplateBase->fetch('controllers/mod...')
+#1 W:\domains\prestashop171\classes\controller\AdminController.php(2831): AdminControllerCore->initModal()
+#2 W:\domains\prestashop171\controllers\admin\AdminStatsTabController.php(31): AdminControllerCore->init()
+#3 W:\domains\prestashop171\classes\controller\Controller.php(186): AdminStatsTabControllerCore->init()
+#4 W:\domains\prestashop171\classes\Dispatcher.php(369): ControllerCore->run()
+#5 W:\domains\prestashop171\admin_\index.php(95): DispatcherCore->dispatch()
+#6 {main}
+
+Next exception 'LogicException' with message 'Request stack is empty' in W:\domains\prestashop171\app\bootstrap.php.cache:3200
+Stack trace:
+#0 [internal function]: Symfony\ in W:\domains\prestashop171\app\bootstrap.php.cache on line 3200

@@ -2,7 +2,7 @@
 <module>
     <name>ps_banner</name>
     <displayName><![CDATA[Баннер]]></displayName>
-    <version><![CDATA[2.0.1]]></version>
+    <version><![CDATA[2.0.2]]></version>
     <description><![CDATA[Показ баннеров в вашем магазине.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[]]></tab>

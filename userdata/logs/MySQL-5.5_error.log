@@ -1,2 +1,24 @@
-170523 14:11:22 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
-170523 14:11:22 [Note] w:\modules\database\MySQL-5.5\bin\mysqld.exe (mysqld 5.5.53) starting as process 6432 ...
+170531  9:13:50 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+170531  9:13:50 [Note] w:\modules\database\MySQL-5.5\bin\mysqld.exe (mysqld 5.5.53) starting as process 6340 ...
+170531  9:13:50 [Note] Plugin 'FEDERATED' is disabled.
+170531  9:13:50 InnoDB: The InnoDB memory heap is disabled
+170531  9:13:50 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170531  9:13:50 InnoDB: Compressed tables use zlib 1.2.3
+170531  9:13:50 InnoDB: Initializing buffer pool, size = 128.0M
+170531  9:13:50 InnoDB: Completed initialization of buffer pool
+170531  9:13:50 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170531  9:13:50  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170531  9:13:55  InnoDB: Waiting for the background threads to start
+170531  9:13:56 InnoDB: 5.5.53 started; log sequence number 72532695
+170531  9:13:56 [Note] Server hostname (bind-address): '192.168.2.99'; port: 3306
+170531  9:13:56 [Note]   - '192.168.2.99' resolves to '192.168.2.99';
+170531  9:13:56 [Note] Server socket created on IP: '192.168.2.99'.
+170531  9:13:56 [Note] Event Scheduler: Loaded 0 events
+170531  9:13:56 [Note] w:\modules\database\MySQL-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.53'  socket: ''  port: 3306  MySQL Community Server (GPL)

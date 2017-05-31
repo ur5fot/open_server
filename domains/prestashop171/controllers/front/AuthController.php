@@ -90,6 +90,7 @@ class AuthControllerCore extends FrontController
 
         if ($should_redirect && !$this->ajax) {
             $back = urldecode(Tools::getValue('back'));
+$back = 'history';//TODO-theme: костыль Андрея
 
             if (Tools::secureReferrer($back)) {
                 // Checks to see if "back" is a fully qualified
